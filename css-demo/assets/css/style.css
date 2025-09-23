@@ -1,1 +1,15 @@
 /* CSS DEMOR STYLESHEET - JUST PRACTICING*/
+/*------------------BOX SIZING----------------*/
+html {
+    box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+/* --------------GLOBAL STYLES--------------- */
+body {
+    background-color: #f4ecc6;
+}
