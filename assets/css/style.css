@@ -1,5 +1,18 @@
 /* This is how you make comments - This Stylesheet is for "COURSE HOMEPAGE CSS" */
 
 body{
-    background-color:rgb(142, 192, 197);
+    background-color:#242522;
+}
+h1{
+    background-color:#3C3E39;
+     padding:20px;
+    border-radius:10px; 
+    text-align:center;
+    color:#255725;
+   
+}
+nav.primary{
+    background-color:#4A5642;
+    padding:10px;
+    border-radius:10px;
 }
