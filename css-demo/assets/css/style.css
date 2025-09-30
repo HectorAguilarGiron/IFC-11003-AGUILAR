@@ -11,5 +11,53 @@ html {
 
 /* --------------GLOBAL STYLES--------------- */
 body {
-    background-color: #f4ecc6;
+    background-color: #242522;
+     font-family: "Pathway Gothic One", sans-serif;
+    color: #4A5642;
+    margin: 0;
+}
+header.primary{
+    background-color: #3C3E39;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color:#255725;
+    /*short form*/
+    padding: 40px;
+    /*long form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    /*T,R,B,L*/
+    padding: 20px 40px 20px 40px;
+    /*two values top/bottom right/left*/
+    padding: 20px 40px;
+}
+
+header.primary h1 {
+    font-size: 3rem;
+    margin: 20px 0 0 0;
+}
+
+header.primary h1 a {
+    color: #1B3F1B;
+    text-decoration: none;
+}
+
+header.primary h2 {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    margin: 10px 0 0 0;
+}
+
+header.primary nav ul {
+    padding: 0;
+}
+
+header.primary nav ul li {
+    list-style-type: none;
+}
+
+header.primary nav ul li a {
+    text-decoration: none;
 }
