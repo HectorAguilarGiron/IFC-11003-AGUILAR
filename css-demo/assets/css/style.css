@@ -9,6 +9,20 @@ html {
     box-sizing: inherit;
 }
 
+/*---------------Utility Classes---------------*/
+
+.container{
+    background-color: #162f1d;
+    width: 80vw;
+    max-width: 1600px;
+    margin: 20px auto;
+}
+
+/*---------------Responsive Images---------------*/
+
+img{
+    max-width:100%
+}
 /* --------------GLOBAL STYLES--------------- */
 body {
     background-color: #242522;
@@ -34,30 +48,73 @@ header.primary{
     padding: 20px 40px;
 }
 
-header.primary h1 {
+header.primary h1{
     font-size: 3rem;
     margin: 20px 0 0 0;
 }
 
-header.primary h1 a {
+header.primary h1 a{
     color: #1B3F1B;
     text-decoration: none;
 }
 
-header.primary h2 {
+header.primary h2{
     font-size: 1.4rem;
     letter-spacing: 2px;
     margin: 10px 0 0 0;
 }
 
-header.primary nav ul {
+header.primary nav ul{
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 10px;
 }
 
-header.primary nav ul li {
+header.primary nav ul li{
     list-style-type: none;
 }
 
-header.primary nav ul li a {
+header.primary nav ul li a{
     text-decoration: none;
+    color: #a99e9e;
+    background-color: #8f1313; /*This gets overide*/
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    transition:.5s;
+}
+
+header.primary nav a:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------MEDIA QUERIES------------------*/
+
+@media screen and (max-width:500px){
+    header.primary nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    header.primary nav ul a{
+        display: block;
+    }
+
+    .container{
+        background-color: transparent;
+        width: 95vw;
+    }
 }
