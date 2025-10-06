@@ -15,3 +15,45 @@ nav.primary{
     padding:10px;
     border-radius:10px;
 }
+
+nav.primary ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+nav.primary ul li{
+    list-style-type: none;
+}
+
+nav.primary ul li a{
+    text-decoration: none;
+    color: #a99e9e;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    transition:.5s;
+}
+
+nav.primary a:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+@media screen and (max-width:1000px){
+    nav.primary ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav.primary ul a{
+        display: inline-block;
+    }
+
+    .container{
+        background-color: transparent;
+        width: 95vw;
+    }
+}
