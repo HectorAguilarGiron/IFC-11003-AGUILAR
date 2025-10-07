@@ -1,17 +1,18 @@
 /* This is how you make comments - This Stylesheet is for "COURSE HOMEPAGE CSS" */
 
 body{
-    background-color:#242522;
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ffffff' fill-opacity='0.37' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 h1{
-    background-color:#3C3E39;
+    background-color:#000000;
      padding:20px;
     border-radius:10px; 
     text-align:center;
-    color:#255725;
+    color:#ffffff;
 }
 nav.primary{
-    background-color:#4A5642;
+    background-color:#3b3c3b;
     padding:10px;
     border-radius:10px;
 }
@@ -30,7 +31,7 @@ nav.primary ul li{
 
 nav.primary ul li a{
     text-decoration: none;
-    color: #a99e9e;
+    color: #ffffff;
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
     background-color:rgba(0, 0, 0, 0.4);
