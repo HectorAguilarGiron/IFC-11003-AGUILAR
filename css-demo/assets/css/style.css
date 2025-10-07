@@ -24,16 +24,16 @@ img{
 }
 /* --------------GLOBAL STYLES--------------- */
 body {
-    background-color: #242522;
-     font-family: "Pathway Gothic One", sans-serif;
-    color: #4A5642;
+    background-color: #0D0D0D;
+    font-family: "Pathway Gothic One", sans-serif;
+    color: #A5A6A1;
     margin: 0;
 }
 header.primary{
-    background-color: #3C3E39;
+    background-color: #03430c;
     text-align: center;
     text-shadow: 1px 1px 1px black;
-    color:#255725;
+    color:#A5A6A1;
     /*short form*/
     padding: 40px;
     /*long form*/
@@ -56,7 +56,7 @@ header.primary h1{
 }
 
 header.primary h1 a{
-    color: #1B3F1B;
+    color: #D9D9D9;
     text-decoration: none;
 }
 
@@ -80,21 +80,22 @@ header.primary nav ul li{
 
 header.primary nav ul li a{
     text-decoration: none;
-    color: #a99e9e;
+    color: #ff0000;
     background-color: #8f1313; /*This gets overide*/
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
-    background-color:rgba(0, 0, 0, 0.4);
+    background-color:rgba(0, 0, 0, 0.396);
     font-size: 1.2rem;
     transition:.5s;
 }
 
 header.primary nav a:hover{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(255, 244, 244, 0.8);
+    color:rgb(214, 97, 214);
 }
 
 #intro h2{
-    color:#4A5642;
+    color:#A5A6A1;
     border-bottom: 1px dotted #8f1313;
 }
 
@@ -106,14 +107,17 @@ header.primary nav a:hover{
 }
 
 #content .post{
-    background-color: #2a4304;
+    background-color: #402313;
     box-shadow:0px 0px 10px rgba(0, 0, 0, 0.4) ;
     padding:10px;
+    border:10px solid #26140E;
+    border-radius: 20px;
     font-size: .9rem;
 }
 
 #content .post figure{
-    background-color:#55f903;
+    justify-content: center;
+    text-align: center;
 }
 
 #content time.post-date, #content figcaption{
@@ -122,20 +126,20 @@ header.primary nav a:hover{
 }
 
 #content a{
-    color: #4A5642;
+    color: #960005;
     transition: .4s;
 }
 
 #content a:hover{
     text-decoration: none;
-    color: #255725;
+    color: #ff0000;
 }
 
 aside[role="complementary"]{
     padding:10px 0;
     font-size: .9rem;
-    background-color: #3C3E39;
-    color:#255725;
+    background-color: #262626;
+    color:#A5A6A1;
     
 }
 
@@ -148,7 +152,12 @@ aside .container{
 }
 
 aside .container a{
-    color: #a99e9e;
+    color: #960005;
+}
+
+aside .container a:hover{
+    text-decoration: none;
+    color: #ff0000;
 }
 
 aside .container a:last-child{
@@ -162,11 +171,11 @@ aside .widget footer{
 }
 
 #colophon{
-    background-color: #324a0c;
+    background-color: #404040;
     padding: 1px 0;
     text-align: center;
     font-weight:bold;
-    color:antiquewhite
+    color: #D9D9D9;
 }
 
 
