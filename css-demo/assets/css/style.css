@@ -1,4 +1,4 @@
-/* CSS DEMOR STYLESHEET - JUST PRACTICING*/
+/*----------------CSS DEMO STYLESHEET----------*/
 /*------------------BOX SIZING----------------*/
 html {
     box-sizing: border-box;
@@ -8,9 +8,7 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
 /*---------------Utility Classes---------------*/
-
 .container{
     width: 80vw;
     max-width: 1600px;
@@ -48,6 +46,13 @@ body {
     font-family: "Pathway Gothic One", sans-serif;
     color: #A5A6A1;
     margin: 0;
+    /* ---- Bacground Image Example ----
+    background-image: url("../img/rat.png"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    */
 }
 header.primary{
     background-color: #03430c;
@@ -190,14 +195,17 @@ header.primary nav a:hover{
     font-size: 1.5rem;
     margin: 10px 0;
 }
+
 #practice tr:nth-child(even){
     background-color: #1a1a1a;
   
 }
+
 #practice tr:hover{
     background-color: #333333;
     color: #ffffff;
 }
+
 #practice th{
     border: 1px solid #404040;
     padding: 5px;
@@ -211,10 +219,49 @@ header.primary nav a:hover{
     padding: 8px;
 }
 
+#practice ol{
+    list-style-type: upper-roman;
+}
+
+#practice ul ul{
+    color:#ffffff
+}
+
+#practice dt{
+    font-weight: bold;
+    color:#D9D9D9;
+}
+
+#practice dd{
+    margin:0px;
+}
+
+dd + dt{
+    margin-top: 20px;
+}
+
 #practice td:nth-child(1n+2){
     text-align: right;
     font-weight: bold;
 }
+
+#practice blockquote{
+    background-color: #333333;
+    border-left: solid 10px #8f1313;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 5px;
+}    
+
+#practice blockquote cite{
+    display: block;
+    font-size: .7rem;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    color:#D9D9D9;
+}
+
 aside[role="complementary"]{
     padding:10px 0;
     font-size: .9rem;
@@ -285,6 +332,9 @@ aside .widget footer{
         display: block;
     }
 
+    #content{
+        flex-direction: column;
+    }
     .container{
         background-color: transparent;
         width: 95vw;
