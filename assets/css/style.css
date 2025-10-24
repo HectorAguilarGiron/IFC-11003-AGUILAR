@@ -25,7 +25,6 @@ nav.primary ul{
     flex-wrap: wrap;
     max-width: 100%;
     align-items: center;
-    margin: 0 auto;
     list-style-type: none;
     justify-content: space-evenly;
 }
@@ -37,11 +36,10 @@ nav.primary ul li{
 nav.primary ul li a{
     text-decoration: none;
     color: #ffffff;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 20px;
     border-radius: 10px;
-    background-color:rgba(0, 0, 0, 0.4);
-    font-size: 1.2rem;
-    transition:.5s;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top:10px;
 }
 
 nav.primary a:hover{
