@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #59462E;
+    font-family: "Pathway Gothic One", sans-serif;
+    color: #718C37;
+    margin: 0;
+}
+
